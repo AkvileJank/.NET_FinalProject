@@ -1,0 +1,15 @@
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\bin\Debug\net6.0\BullsAndCows.exe
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\bin\Debug\net6.0\BullsAndCows.deps.json
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\bin\Debug\net6.0\BullsAndCows.runtimeconfig.json
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\bin\Debug\net6.0\BullsAndCows.dll
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\bin\Debug\net6.0\BullsAndCows.pdb
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\BullsAndCows.csproj.AssemblyReference.cache
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\BullsAndCows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\BullsAndCows.AssemblyInfoInputs.cache
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\BullsAndCows.AssemblyInfo.cs
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\BullsAndCows.csproj.CoreCompileInputs.cache
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\BullsAndCows.dll
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\refint\BullsAndCows.dll
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\BullsAndCows.pdb
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\BullsAndCows.genruntimeconfig.cache
+C:\Users\lapin\Desktop\SGT\dotnetProjects\BullsAndCows\obj\Debug\net6.0\ref\BullsAndCows.dll
