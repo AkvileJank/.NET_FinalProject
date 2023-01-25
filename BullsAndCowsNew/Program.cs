@@ -129,7 +129,7 @@ namespace BullsAndCowsNew
                 randomNumber[i] = newNum;
             }
         }
-public static int CheckBulls(int[] randomNumber, int[] yourGuess)
+        public static int CheckBulls(int[] randomNumber, int[] yourGuess)
         {
             int bulls = 0;
             for (int i = 0; i < randomNumber.Length; i++)
