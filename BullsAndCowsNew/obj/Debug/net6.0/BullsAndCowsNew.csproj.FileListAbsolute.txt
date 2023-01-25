@@ -1,0 +1,15 @@
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\bin\Debug\net6.0\BullsAndCowsNew.exe
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\bin\Debug\net6.0\BullsAndCowsNew.deps.json
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\bin\Debug\net6.0\BullsAndCowsNew.runtimeconfig.json
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\bin\Debug\net6.0\BullsAndCowsNew.dll
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\bin\Debug\net6.0\BullsAndCowsNew.pdb
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\BullsAndCowsNew.csproj.AssemblyReference.cache
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\BullsAndCowsNew.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\BullsAndCowsNew.AssemblyInfoInputs.cache
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\BullsAndCowsNew.AssemblyInfo.cs
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\BullsAndCowsNew.csproj.CoreCompileInputs.cache
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\BullsAndCowsNew.dll
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\refint\BullsAndCowsNew.dll
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\BullsAndCowsNew.pdb
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\BullsAndCowsNew.genruntimeconfig.cache
+C:\Users\Akvile\Documents\netFinal\BullsAndCowsNew\obj\Debug\net6.0\ref\BullsAndCowsNew.dll

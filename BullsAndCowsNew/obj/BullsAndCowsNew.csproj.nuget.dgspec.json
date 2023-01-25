@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCows\\BullsAndCows.csproj": {}
+    "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCows\\BullsAndCows.csproj": {
+    "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCows\\BullsAndCows.csproj",
-        "projectName": "BullsAndCows",
-        "projectPath": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCows\\BullsAndCows.csproj",
+        "projectUniqueName": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj",
+        "projectName": "BullsAndCowsNew",
+        "projectPath": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj",
         "packagesPath": "C:\\Users\\Akvile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCows\\obj\\",
+        "outputPath": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akvile\\AppData\\Roaming\\NuGet\\NuGet.Config",

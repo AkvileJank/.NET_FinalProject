@@ -30,10 +30,10 @@
             int[] iYourGuess = Array.ConvertAll(sYourGuess, s => Int32.Parse(s));
 
             int bulls = CheckBulls(randomNumber, iYourGuess);
-            Console.WriteLine("Total amount of bulls is : " + bulls);
+            Console.WriteLine(bulls + " Bulls");
 
             int cows = CheckCows(randomNumber, iYourGuess);
-            Console.WriteLine("Total amount of cows is : " + cows);
+            Console.WriteLine(cows + " Cows");
 
             if (bulls == totalBulls)
                 notCorrect = false;
