@@ -16,8 +16,7 @@ namespace BullsAndCowsNew
             int[] randomGeneratedNumbers = new int[arrayLength];
             int totalBulls = arrayLength;
             int totalCows = arrayLength;
-            int numberToCheck = 0;
-            CreateRandomArray(arrayLength, numberToCheck, randomGeneratedNumbers);
+            CreateRandomArray(arrayLength, randomGeneratedNumbers);
 
             int counter = 0;
             bool notCorrect = true;
@@ -105,8 +104,10 @@ namespace BullsAndCowsNew
             }
         }
 
-        public static void CreateRandomArray(int arrayLength, int numberToCheck, int[] randomGeneratedNumbers)
+        public static void CreateRandomArray(int arrayLength, int[] randomGeneratedNumbers)
         {
+            int numberToCheck = 0;
+
             for (int i = 0; i < arrayLength; i++)
             {
                 Random rRandomNum = new Random();
