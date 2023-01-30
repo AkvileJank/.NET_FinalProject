@@ -9,32 +9,29 @@ namespace BullsAndCowsNew
             GameInstructions();
 
             Console.WriteLine("Enter difficulty level:");
-            string difficulty = Console.ReadLine();
-            difficulty = DifficultyInputCheck(difficulty);
+            string difficultyInput = Console.ReadLine();
+            difficultyInput = DifficultyInputCheck(difficultyInput);
 
-            int arrayLength = ReturnDifficulty(difficulty);
-            int[] randomNumber = new int[arrayLength];
+            int arrayLength = ReturnDifficulty(difficultyInput);
+            int[] randomGeneratedNumbers = new int[arrayLength];
             int totalBulls = arrayLength;
             int totalCows = arrayLength;
-            int newNum = 0;
-            CreateRandomArray(arrayLength, newNum, randomNumber);
-
-            //this code is dummy just to see the random array
-            Console.WriteLine("Array : ");
-            Console.WriteLine(string.Join("", randomNumber));
+            int numberToCheck = 0;
+            CreateRandomArray(arrayLength, numberToCheck, randomGeneratedNumbers);
 
             int counter = 0;
             bool notCorrect = true;
+
             while (notCorrect)
             {
                 counter++;
                 try
                 {
                     Console.WriteLine("Enter your guess (separate each number with comma):");
-                    string[] sYourGuess = Console.ReadLine().Split(",");
-                    int[] iYourGuess = Array.ConvertAll(sYourGuess, s => Int32.Parse(s));
-                    int bulls = CheckBulls(randomNumber, iYourGuess);
-                    int cows = CheckCows(randomNumber, iYourGuess, bulls);
+                    string[] UserGuess = Console.ReadLine().Split(",");
+                    int[] UserGuessConvertedToInt = Array.ConvertAll(UserGuess, s => Int32.Parse(s));
+                    int bulls = CheckBulls(randomGeneratedNumbers, UserGuessConvertedToInt);
+                    int cows = CheckCows(randomGeneratedNumbers, UserGuessConvertedToInt, bulls);
 
                     if (bulls == totalBulls)
                     {
@@ -63,28 +60,28 @@ namespace BullsAndCowsNew
             Console.WriteLine("Difficulty levels: E - easy (3 numbers), M - medium (4 numbers), H - hard (5 numbers)");
         }
 
-        public static string DifficultyInputCheck(string difficulty)
+        public static string DifficultyInputCheck(string difficultyInput)
         {
             bool incorrectDifficultyInput = true;
 
             while (incorrectDifficultyInput)
             {
-                if (ReturnDifficulty(difficulty) == -1)
+                if (ReturnDifficulty(difficultyInput) == -1)
                 {
-                    Console.WriteLine("Input is not valid. Please check again and enter correct letter for dificulty:");
-                    difficulty = Console.ReadLine();
+                    Console.WriteLine("Input is not valid. Please check again and enter correct letter for difficulty:");
+                    difficultyInput = Console.ReadLine();
                 }
                 else
                     incorrectDifficultyInput = false;
             }
-            return difficulty;
+            return difficultyInput;
         }
 
-        public static bool NotUniqueNumber(int[] randomNumbers, int randomGenerated)
+        public static bool NotUniqueNumber(int[] randomGeneratedNumbers, int numberToCheck)
         {
-            foreach (int element in randomNumbers)
+            foreach (int element in randomGeneratedNumbers)
             {
-                if (element == randomGenerated)
+                if (element == numberToCheck)
                 {
                     return true;
                 }
@@ -92,66 +89,60 @@ namespace BullsAndCowsNew
             return false;
         }
 
-        public static int ReturnDifficulty(string difficulty)
+        public static int ReturnDifficulty(string difficultyInput)
         {
 
-            switch (difficulty)
+            switch (difficultyInput)
             {
                 case "E":
                     return 3;
-                    break;
                 case "M":
                     return 4;
-                    break;
                 case "H":
                     return 5;
-                    break;
                 default:
                     return -1;
-                    break;
             }
         }
 
-        public static void CreateRandomArray(int arrayLength, int newNum, int[] randomNumber)
+        public static void CreateRandomArray(int arrayLength, int numberToCheck, int[] randomGeneratedNumbers)
         {
             for (int i = 0; i < arrayLength; i++)
             {
                 Random rRandomNum = new Random();
 
-                //created newNum to check if it is not the same as previous numbers in array and only then add to array
-                newNum = rRandomNum.Next(0, 10);
+                numberToCheck = rRandomNum.Next(0, 10);
 
-                while (NotUniqueNumber(randomNumber, newNum))
+                while (NotUniqueNumber(randomGeneratedNumbers, numberToCheck))
                 {
-                    newNum = rRandomNum.Next(0, 10);
+                    numberToCheck = rRandomNum.Next(0, 10);
                 }
 
-                randomNumber[i] = newNum;
+                randomGeneratedNumbers[i] = numberToCheck;
             }
         }
-        public static int CheckBulls(int[] randomNumber, int[] yourGuess)
+        public static int CheckBulls(int[] randomGeneratedNumbers, int[] UserGuessConvertedToInt)
         {
             int bulls = 0;
-            for (int i = 0; i < randomNumber.Length; i++)
+            for (int i = 0; i < randomGeneratedNumbers.Length; i++)
             {
-                if (randomNumber[i] == yourGuess[i])
+                if (randomGeneratedNumbers[i] == UserGuessConvertedToInt[i])
                     bulls++;
             }
 
             return bulls;
         }
 
-        public static int CheckCows(int[] randomNumber, int[] yourGuess, int bulls)
+        public static int CheckCows(int[] randomGeneratedNumbers, int[] UserGuessConvertedToInt, int bulls)
         {
             int cows = 0;
 
-            IEnumerable<int> numbersInBoth = randomNumber.Intersect(yourGuess);
+            IEnumerable<int> numbersInBoth = randomGeneratedNumbers.Intersect(UserGuessConvertedToInt);
 
             foreach (int i in numbersInBoth)
             {
                 cows++;
             }
-            // before if the number was bull, it was also counted as a cow
             return cows - bulls;
         }
     }

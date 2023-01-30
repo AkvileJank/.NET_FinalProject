@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lapin\\Desktop\\SGT\\finalProject\\BullsAndCowsNew\\BullsAndCowsNew.csproj": {}
+    "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lapin\\Desktop\\SGT\\finalProject\\BullsAndCowsNew\\BullsAndCowsNew.csproj": {
+    "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lapin\\Desktop\\SGT\\finalProject\\BullsAndCowsNew\\BullsAndCowsNew.csproj",
+        "projectUniqueName": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj",
         "projectName": "BullsAndCowsNew",
-        "projectPath": "C:\\Users\\lapin\\Desktop\\SGT\\finalProject\\BullsAndCowsNew\\BullsAndCowsNew.csproj",
-        "packagesPath": "C:\\Users\\lapin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lapin\\Desktop\\SGT\\finalProject\\BullsAndCowsNew\\obj\\",
+        "projectPath": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj",
+        "packagesPath": "C:\\Users\\Akvile\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lapin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Akvile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
