@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj": {}
+    "C:\\Users\\Akvile\\Documents\\netFinal\\Data1\\Data1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj": {
+    "C:\\Users\\Akvile\\Documents\\netFinal\\Data1\\Data1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj",
-        "projectName": "BullsAndCowsNew",
-        "projectPath": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\BullsAndCowsNew.csproj",
+        "projectUniqueName": "C:\\Users\\Akvile\\Documents\\netFinal\\Data1\\Data1.csproj",
+        "projectName": "Data1",
+        "projectPath": "C:\\Users\\Akvile\\Documents\\netFinal\\Data1\\Data1.csproj",
         "packagesPath": "C:\\Users\\Akvile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Akvile\\Documents\\netFinal\\BullsAndCowsNew\\obj\\",
+        "outputPath": "C:\\Users\\Akvile\\Documents\\netFinal\\Data1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akvile\\AppData\\Roaming\\NuGet\\NuGet.Config",

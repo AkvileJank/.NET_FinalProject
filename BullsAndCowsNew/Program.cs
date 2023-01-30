@@ -106,13 +106,12 @@ namespace BullsAndCowsNew
 
         public static void CreateRandomArray(int arrayLength, int[] randomGeneratedNumbers)
         {
-            int numberToCheck = 0;
 
             for (int i = 0; i < arrayLength; i++)
             {
                 Random rRandomNum = new Random();
 
-                numberToCheck = rRandomNum.Next(0, 10);
+                 int numberToCheck = rRandomNum.Next(0, 10);
 
                 while (NotUniqueNumber(randomGeneratedNumbers, numberToCheck))
                 {
