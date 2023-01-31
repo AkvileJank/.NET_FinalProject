@@ -14,6 +14,7 @@ namespace BullsAndCowsNew
 
             int arrayLength = ReturnDifficulty(difficultyInput);
             int[] randomGeneratedNumbers = new int[arrayLength];
+            Array.Fill(randomGeneratedNumbers, -1);
             int totalBulls = arrayLength;
             int totalCows = arrayLength;
             CreateRandomArray(arrayLength, randomGeneratedNumbers);
