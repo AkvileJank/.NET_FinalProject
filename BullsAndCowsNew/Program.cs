@@ -54,7 +54,8 @@ namespace BullsAndCowsNew
 
         public static void GameInstructions()
         {
-            Console.WriteLine("Welcome to Bulls And Cows!" + "\n" + "Your goal is to guess a combination of unique numbers (all numbers are different)." +
+            Console.WriteLine("Welcome to Bulls And Cows!" + "\n" + "Your goal is to guess a combination of unique numbers (all numbers are different " +
+                "and they are in range 0-9)." +
                "\n" + "Hint meanings:" + "\n" + "Bull - amount of numbers guessed in a correct position;" + "\n" +
                "Cow - amount of numbers guessed correctly but in a wrong position" + "\n");
             Console.WriteLine("Difficulty levels: E - easy (3 numbers), M - medium (4 numbers), H - hard (5 numbers)");
