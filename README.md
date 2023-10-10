@@ -1,5 +1,4 @@
-# .NET Final Project
-# Bulls and Cows Game
+# .NET Final Project - Bulls and Cows Game
 
 ## Introduction
 This project is a console-based implementation of the classic game "Bulls and Cows." It was created as a final project on the "She Goes Tech" course on Microsoft technologies and .NET.
